@@ -1,0 +1,32 @@
+header {
+    background-color: rgb(223, 210, 193);
+    padding: 20px 0px;
+}
+
+.caixa {
+    position: relative; /*Ela sobrepõem o posicionamento absoluto da nav */
+    width: 840px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
