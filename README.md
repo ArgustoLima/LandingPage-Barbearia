@@ -7,3 +7,6 @@
 
 <br>Atualmente estou me desenvolvendo em HTML5 e CSS3 pelo curso ALURA, e por 
 aqui vou colocar meus exercícios no qual estou aprendendo por lá!</br>
+  
+Curso da parte 1 até a parte 4.
+ 
