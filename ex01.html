@@ -10,8 +10,42 @@
             background-color: #CCCCCC;
         }
 
-        h1 {
+        h1{
             text-align: center;
+            height: 30px;                               /*Altura */   
+            width: 275px;
+            border: 10px solid rgb(161, 107, 57);     /*Borda */   
+            border-radius: 40px 20px;
+            border-style: outset;
+            padding: 10px;                              /*Espaçamento da borda */  
+            margin-left: 50px;                          /*Margem da esquerda */   
+            margin-right: 50px;                         /*Margem da direira */    
+        }
+
+        h2 {
+            text-align: center;
+            height: 30px;                               /*Altura */   
+            width: 400px;
+            border: 10px solid rgb(161, 107, 57);     /*Borda */   
+            border-radius: 40px 20px;
+            border-style:double;
+            padding: 10px;                              /*Espaçamento da borda */  
+            margin-inline: auto;                          /*Margem no meio */   
+        }
+
+        h3 {
+           text-align: center;
+           font-size: 20pt;
+       }
+
+        img[id="imagem"] {
+            width: 100%;                                /*Largura em 100% de tela*/
+            height: 450px;                            
+
+        }
+
+        img[id="imagem2"] {
+            width: 50%;
         }
 
         p {
@@ -20,29 +54,69 @@
 
         p[id="p1"] {
             font-size: 20px;
+            font-style: italic;
         }
 
         strong[id="p2"] {
             color: rgb(141, 94, 94)
         }
-        
+
+       .itens {
+           font-style: italic;
+       }
+
+       .beneficios {
+           background-color: rgba(255, 255, 255, 0.459);
+           padding: 30px;
+       }
+
+       ul {
+           display: inline-block;         /*Serve para juntar a img, com a lista, na mesma linha */
+           vertical-align: top;           /*Coloca a lista no topo */
+           width: 25%;
+           margin-right: auto;
+           font: normal 20pt bold;
+           padding-top: 20px;
+       }
     </style>
 </head>
 <body>
-    <h1>Sobre a Barbearia Vieira</h1>
-    <p>
-        Localizado no pinheirinho da cidade de Curitiba, a <strong>barbearia Vieira</strong> traz ao mercado 
-        o que há de melhor para o seu cabelo e baraba, Fundada em 1991, a barbearia
-        Vieira já é destaque na cidade e conquista novos clientes a cada dia.
-    </p>
-    <p id="p1">
-        <em>Nossa missão é: <strong id="p2">"Proporcionar auto-estima e qualidade de vida aos clientes"</strong></em>
-    </p>
-    <p>
-        Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
-        O atendimento possui padrão de excelência e agilidade, garantindo qualidade e
-        satisfação dos nossos clientes.
-    </p>
+    <div>
+        <header>
+            <h1>Barbearia Vieira</h1>
+        </header>
+        <img id="imagem" src="banner.jpg" alt="barbearia">
+
+        <h2>Sobre a Barbearia Vieira</h1>
+
+        <p>
+            Localizado no pinheirinho da cidade de Curitiba, a <strong>barbearia Vieira</strong> traz ao mercado 
+            o que há de melhor para o seu cabelo e barba, Fundada em 1991, a barbearia
+            Vieira já é destaque na cidade e conquista novos clientes a cada dia.
+        </p>
+        <p id="p1">
+            Nossa missão é: <strong id="p2">"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>
+        </p>
+        <p>
+            Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
+            O atendimento possui padrão de excelência e agilidade, garantindo qualidade e
+            satisfação dos nossos clientes.
+        </p>
+    </div>
+    <div class="beneficios">
+        <h3>Benefícios</h2>
+        <ul>
+            <!--Lista desordenada -->
+            <li class="itens">Atendimento aos clientes</li>
+            <li class="itens">Espaço diferenciado</li>
+            <li class="itens">Localizações</li>
+            <li class="itens">Profissionais qualificados</li>
+            <!--O <li> serve para marcar o que for na lista-->
+            <!--O class="itens" serve como um identificador, porém para todas as classes-->
+        </ul>
+        <img id="imagem2" src="corte.jpg">
+
+    </div>
     
 </body>
 </html>
