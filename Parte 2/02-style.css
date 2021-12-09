@@ -5,7 +5,7 @@ header {
 
 .caixa {
     position: relative; /*Ela sobrepõem o posicionamento absoluto da nav */
-    width: 840px;
+    width: 940px;
     margin: 0 auto;
 }
 
@@ -29,4 +29,35 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+
+.produtos {
+    width:940px;
+    margin: 0 auto;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top; /*Orientar pela linha de cima */
+    padding-top: 50px;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box; /*Faz com que o padding fique dentro dos 30% do width */
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: 18px;
+}
+
+.preco{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
 
