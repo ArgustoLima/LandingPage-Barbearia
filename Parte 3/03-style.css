@@ -1,0 +1,65 @@
+/*
+    Header
+*/
+
+header {
+    background-color: rgba(223, 210, 193);
+    padding: 20px 0px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(114, 66, 0)
+}
+
+/*
+    Main
+*/
+
+/*
+    Footer
+*/
+
+footer {
+    background: url(bg.jpg);
+}
+
+.rodape {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.rodape p {
+    position: absolute;
+    right: 0px;
+    top: 45%;
+    color: white;
+    font-style: italic;
+}
+
