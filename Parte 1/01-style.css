@@ -26,9 +26,6 @@ header {
     background-color: rgb(223, 210, 193);
 }
 
-div[id="ffundo"] {
-    background: url(bg.jpg);
-}
 
 .h {
     text-align: center;
@@ -66,6 +63,7 @@ img[id="imgmain"] {
     width: 1100px;
     height: 500px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 div[id="lista"] {
