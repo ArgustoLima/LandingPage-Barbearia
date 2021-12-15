@@ -40,6 +40,74 @@ nav a:hover {
     Main
 */
 
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0px
+}
+
+form label, form p {
+    display: block;
+    font-size: 22px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 25px;
+    padding: 6px 45px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+input[value="Enviar"] {
+    width: 10%;
+    padding: 5px;
+}
+
+textarea {
+    display: block;
+    margin: 0 0 25px;
+    border-radius: 8px;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+#select {
+    margin: 20px 0;
+}
+
+#selecionar {
+    width: 10%;
+    padding: 5px;
+}
+
+/*
+    Hover-Main
+*/
+
+.input-padrao:hover {
+    background-color: rgba(223, 210, 193, 0.25);
+}
+
+textarea:hover {
+    background-color: rgba(223, 210, 193, 0.25);
+}
+
+select:hover {
+    background-color: rgba(223, 210, 193, 0.25);
+}
+
+#submit:hover {
+    background-color: rgba(223, 210, 193, 0.25);
+    font-weight: bold;
+}
+
 /*
     Footer
 */
