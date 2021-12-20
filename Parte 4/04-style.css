@@ -1,3 +1,8 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
 header {
     background-color: rgba(223, 210, 193);
     padding: 20px 0px;
@@ -72,7 +77,7 @@ img[id="imgmain"] {
 }
 
 div[id="lista"] {
-    padding: 20px 0px 100px;
+    padding: 20px 0px 50px;
 }
 
 div[id="beneficios"] {
@@ -118,6 +123,25 @@ footer {
     right: 0px;
     font-style: italic;
 }
+
+.mapa {
+    text-align: center;
+    font-size: 18pt;
+    margin: 0 0 50px;
+}
+
+section.mapa p {
+    margin: 0 0 30px;
+}
+
+.video {
+    margin: 30px auto;
+}
+
+
+
+
+
 
 
 
