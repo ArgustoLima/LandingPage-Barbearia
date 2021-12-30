@@ -104,6 +104,10 @@ img[id="imgcorte"] {
     font-size: 16pt;
 }
 
+.itens:after {
+    content: " ☆";
+}
+
 footer {
     background: url(bg.jpg);
 }
@@ -127,7 +131,12 @@ footer {
 .mapa {
     text-align: center;
     font-size: 18pt;
-    margin: 0 0 50px;
+    padding: 0 0 50px;
+    background-color: rgba(223, 210, 193);
+}
+
+.main {
+    background: linear-gradient(white 25%, rgba(223, 210, 193))
 }
 
 section.mapa p {
@@ -137,6 +146,7 @@ section.mapa p {
 .video {
     margin: 30px auto;
 }
+
 
 
 
