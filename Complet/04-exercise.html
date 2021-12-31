@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="04-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <img src="logo.png" alt="Logo da Barbearia Alura">
+            <!--O alt serve como alternativa para quem não consegue ver a imagem -->
+
+            <nav>
+                <ul>
+                    <li><a href="04-exercise.html">Home</a></li>
+                    <li><a href="02-exercise.html">Produtos</a></li>
+                    <li><a href="03-exercise.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="banner">
+            <img src="banner.jpg" id="imgmain">
+        </div>
+        <div id="mfundo">
+            <h2 class="h">Sobre a barbearia Alura</h1>
+            <p id="click">Clique aqui</p>
+            <p id="button"><input type="button" value="&darr;" onclick="info()"></p>
+            <p id="resultado"></p>
+        </div>
+        <div id="lista">
+            <h3 class="h">Benefícios</h3>
+            <div id="beneficios">
+                <ul>
+                    <li class="itens">Atendimento aos clientes</li>
+                    <li class="itens">Espaço diferenciado</li>
+                    <li class="itens">Localizações</li>
+                    <li class="itens">Profissionais qualificados</li>
+                </ul>
+                <img src="corte.jpg" id="imgcorte">
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="mapa">
+        <h4 class="h">Nosso estabelecimento</h4>
+        <p>Você pode nos encontrar aqui.</p>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.
+        183948656504!2d-73.98773128433622!3d40.757978742737734!2m3!1f0!2f0!3f0
+        !3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!
+        2sTimes%20Square!5e0!3m2!1sen!2sbr!4v1640032381363!5m2!1sen!2sbr" 
+        width="1000" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <footer>
+        <div class="rodape">
+            <img src="logo-branco.png">
+            <p>&copy Copyright Barbearia Alura - 2019</p>
+        </div>
+    </footer>
+
+    <script src="04-script.js"></script>
+</body>
+</html>

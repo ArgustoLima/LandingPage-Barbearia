@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="03-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <img src="logo.png" alt="Logo da Barbearia Alura">
+            <!--O alt serve como alternativa para quem não consegue ver a imagem -->
+
+            <nav>
+                <ul>
+                    <li><a href="04-exercise.html">Home</a></li>
+                    <li><a href="02-exercise.html">Produtos</a></li>
+                    <li><a href="03-exercise.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="name">Nome completo</label>
+            <input type="text" name="name" id="name" class="input-padrao" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="input-padrao" required
+            placeholder="seuemail@dominio.com">
+            <!--
+                O required serve para usar como campo NotNull ou seja obrigatório, 
+            então dependendo do type, cada restrição é diferente da outra,
+            e o placeholder serve para colocar um exemplo dentro do input(caixa).
+            -->
+
+            <label for="telephone">Telefone</label>
+            <input type="tel" name="telephone" id="telephone" class="input-padrao" required
+            placeholder="(XX) XXXXX-XXXX">
+
+            <label for="message">Mensagem</label >
+            <textarea name="message" id="message" cols="40" rows="8"></textarea>
+
+            <fieldset>
+            <!--O fieldset é uma tag que serve para usar em campos com área para seleção -->
+                <legend>Como prefere o nosso contato?</legend>
+
+                <label for="contato-email"><input type="radio" name="contato" id="contato-email">
+                 Email</label>
+
+                <label for="contato-telephone"><input type="radio" name="contato" id="contato-telephone">
+                Telefone</label>
+
+                <label for="contato-whatsapp"><input type="radio" name="contato" id="contato-whatsapp" checked>
+                WhatsApp</label>
+                <!-- O checked serve para deixar a obção já marcada para o cliente -->
+            </fieldset> 
+
+            <fieldset id="select">
+                <legend>Qual horário você prefere ser atendido?</legend>
+                <select name="selecionar" id="selecionar">
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+            <label for="checkbox" class="checkbox"><input type="checkbox" name="checkbox" id="checkbox" checked>
+            Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Enviar" id="submit">
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Meio de Semana</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
+                    <td>8h ~ 12h</td>
+                </tr>
+                <tr>
+                    <td>Domingo</td>
+                    <td>Fechado</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <div class="rodape">
+            <img src="logo-branco.png" alt="Logo branco da Barbearia Alura">
+
+            <p>&copy; Copyright Barbearia Alura - 2019</p>
+        </div>
+    </footer>
+</body>
+</html>

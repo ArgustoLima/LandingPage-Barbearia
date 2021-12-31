@@ -1,0 +1,111 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+header {
+    background-color: rgb(223, 210, 193);
+    padding: 20px 0px;
+}
+
+.caixa {
+    position: relative; /*Ela sobrepõem o posicionamento absoluto da nav */
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {  /*Hover é a função DOM para quando entrar */
+    color: rgb(114, 66, 0)
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 80px 0;
+    
+    
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: 400px;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 4px solid rgb(223, 210, 193);
+    border-radius: 10px 25px;
+    
+}
+
+.produtos li:hover {
+    border-color: rgb(114, 66, 0);
+    border-style:double ;
+    border-width: 6px;
+}
+
+.produtos li:active {
+    border-color: rgb(108, 185, 88);
+}
+
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: 18px;
+}
+
+.preco {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    background: url(bg.jpg);
+}
+
+.rodape {
+    margin-top: 80px;
+    position: relative;
+    width: 400px;
+    margin: 0px auto;
+    padding: 20px ;
+}
+
+.rodape p {
+    color: white;
+    position: absolute;
+    top: 45%;
+    right: 0px;
+    font-style: italic;
+}
+
+
+
+
